@@ -1,0 +1,457 @@
+*{
+    margin:auto
+}
+.background1{
+    height: 750px;
+    width: 1520px; 
+}
+.background{
+    height: 750px;
+    width: 1520px;
+    filter: brightness(0.2);
+    
+}
+.navbar{
+    height: 80px;
+    width: 1525px;
+/*background-color: aquamarine;*/
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    
+}
+.logo{
+    height: 70px;
+    width: 170px;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-dodge;
+    object-position: 10px;
+    margin-top: 10px;
+    left: 5px;
+    float: ;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.button1{
+    height: 50px;
+    width: 100px;
+    top: 20px;
+margin-left: 1000px;
+position: fixed;
+background-color: black;
+color: white;
+border-radius: 5px;
+border: solid 0.1px;
+}
+.button1:hover{
+    background-color: rgb(63, 62, 62);
+}
+.button2{
+    height: 50px;
+    width: 100px;
+top: 20px;
+margin-left:1120px;
+position: fixed; 
+border: none;
+border-radius: 5px;
+background-color: red;
+color: white;
+}
+.button2:hover{
+    background-color: #FFC080;
+}
+.content{
+    height: 450px;
+    width: 600px;
+/* background-color: aquamarine;*/
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    margin-left: 500px;
+    margin-top: 220px;
+
+}
+.content h1{
+    color: white;
+    padding: 10px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+.content h2{
+    color: white;
+    margin-left: 110px;
+    font-size: 35px;
+}
+.content p{
+    color: white;
+    margin-left: 70px;
+    font-size: 25px;
+}
+.email{
+    background-color: black;
+    border-radius: 5px;
+    border: 0.5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 380px;
+    box-decoration-break: none;
+    color: lightgray;
+    font-size: 20px;
+}
+.button3{
+    height: 40px;
+    width: 120px;
+    margin-left: 180px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;  
+}
+.button3:hover{
+    background-color: #FFC080;
+}
+.content2{
+    height: 700px;
+    width: 1520px;
+background-color: rgb(4, 4, 33);
+filter: brightness(0.5);
+}
+.curve{
+    width: 1520px;
+}
+.trending{
+    /*background-color: aqua;*/
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 40px;
+    
+}
+.trending h3{
+    font-size: 30px;
+    color: white;
+
+}
+.trending h3:hover{
+    color: green;
+}
+.i1{
+    height: 300px;
+    margin-top: 60px;
+}
+.i1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.content3{
+    height: 400px;
+    width: 1512px;
+    background-color: black;
+}
+.more {
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: absolute;
+    margin-top: 1420px;
+    margin-left: 40px;
+}
+.more h4{
+    font-size: 30px;
+    color: white;
+}
+.more h4:hover{
+    color: green;
+
+}
+.div1{
+    height: 280px;
+    width: 360px;
+    background-color: rgb(29, 24, 48);
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    top: 55px;
+    border-radius: 5px;
+}
+.div1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.div2{
+    height: 280px;
+    width: 360px;
+    background-color:rgb(22, 12, 58);
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 55px;
+    border-radius: 5px;
+}
+.div2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.div3{
+    height: 280px;
+    width: 360px;
+    background-color: rgb(22, 12, 58);
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 55px;
+    border-radius: 5px;
+}
+.div3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.div4{
+    height: 280px;
+    width: 360px;
+    background-color: rgb(29, 24, 48);
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 55px;
+    border-radius: 5px;
+}
+.div4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.heading{
+color: white;
+padding: 20px;
+}
+.para{
+    color:  white;
+    padding: 20px;
+    font-size: 20px;
+}
+.content4{
+    height: 550px;
+    width: 1512px;
+    background-color: black;
+
+} 
+.content4 h1{
+    padding: 20px;
+    color: white;
+    padding-left: 40px;
+} 
+.content4 h1:hover{
+    color: green;
+}
+.section1{
+    height: 60px;
+    width: 1300px;
+    background-color: rgb(37, 36, 36);
+    
+}
+.section1:hover{
+    background-color: rgb(54, 55, 55);
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    
+}
+.section2{
+    height: 60px;
+    width: 1300px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 20px;
+}
+.section2:hover{
+    background-color: rgb(54, 55, 55);
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.section3{
+    height: 60px;
+    width: 1300px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 20px;
+}
+.section3:hover{
+    background-color: rgb(54, 55, 55);
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.section4{
+    height: 60px;
+    width: 1300px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 20px;
+}
+.section4:hover{
+    background-color: rgb(54, 55, 55);
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.section5{
+    height: 60px;
+    width: 1300px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 20px;
+}
+.section5:hover{
+    background-color: rgb(54, 55, 55);
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.section6{
+    height: 60px;
+    width: 1300px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 20px;
+}
+.section6:hover{
+    background-color: rgb(54, 55, 55);
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+.span{
+    padding: 20px;
+    padding-left: 60px;
+    top: 20px;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.content5{
+    height: 250px;
+    width: 1512px;
+    background-color: black;
+
+}
+.center{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.email1{
+    height: 40px;
+    width: 600px;
+    background-color: black;
+   margin-top: 20px;
+   margin-left: 370px;
+   border: solid gray;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 20px;
+   float: left;
+   color: white;
+}
+.button4{
+    /*margin-left: 1100px;*/
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: 0px; 
+}
+.button4:hover{
+    background: red;
+}
+.span1{
+    color: white;
+    top: 160px;
+    position: relative;
+    right: 1080px;
+    font-size: 20px;
+}
+.part1{
+height: 330px;
+width: 370px;
+background-color: black;
+right: 400px;
+float: left;
+
+}
+.part2{
+    height: 330px;
+    width: 370px;
+    background-color: black;
+    float: left;;
+    }
+    .part3{
+        height: 330px;
+        width: 380px;
+        background-color: black;
+        float: left;
+        }
+.part4{
+            height: 330px;
+            width: 392px;
+            background-color: black;
+            float: left;
+            }
+.span2{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    top:50px;
+    margin-left: 40px;
+    text-decoration-line: underline;
+} 
+.span2:hover{
+    color: red;
+    cursor: pointer;
+}
+.button5{
+ margin-top: 20px;
+margin-left: 60px;
+height: 50px;
+width: 120px;
+border-radius: 5px;
+background-color: black;
+color: white;
+border: solid gray;
+} 
+.footer{
+    height: 400px;
+    width: 1512px;
+    background-color: black;  
+}
+.footerpara{
+    font-size: 20px;
+    text-align: center;
+    top: 20px;
+    position: relative;
+    color: white;
+}

@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+
+.logo{
+    height: 4rem;
+    width: 4rem;
+}
+
+.logo img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.home-icon{
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-left: 12rem;
+
+}
+
+.search-bar {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 3.5rem;
+    width: 40%;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin-right: 12rem;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar:hover, .search-bar:focus-within {
+    background-color: rgb(66, 66, 66);
+}
+
+.input {
+    background: none;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    height: 2.5rem;
+    width: 22rem;
+    margin-right: 6rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btns{
+    /* border: 0.5px solid red; */
+    height: 2.5rem;
+    width: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+}
+
+.signup{
+    color: rgb(151, 155, 158);
+    background: none;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+
+}
+
+.login{
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding: 6px 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+
+}
+
+.signup:hover{
+    transform: translateY(-5px);
+    color: white;
+}
+
+.login:hover{
+    background-color:#1ed760;
+    transform: translateY(-5px);
+}
+
+/* Main Content */
+
+main{
+    background-color: rgb(37, 37, 37);
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin:12px;
+}
+
+.head h1:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}
+
+.head h1 {
+    transition: 0.5s ease;
+}
+
+.head p {
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.head p:hover {
+    color: #1ed760;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.artists{
+    /* border: 0.5px solid red; */
+    height: 15rem;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1{
+    height: 15rem;
+    width: fit-content;
+    object-fit: contain;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+
+.box1 img{
+    height: 11.5rem;
+    width: 11.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box1 h2{
+    font-family: Apple Chancery, cursive;
+}
+
+.box1 p{
+    color: rgb(143, 139, 133);
+    font-family: Bradley Hand, cursive;
+}
+
+.songs{
+    height: 15rem;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box2{
+    height: 16rem;
+    width: 12rem;
+    object-fit: contain;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.box2 img{
+    height: 11.5rem;
+    width: 11.5rem;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+.box2 p{
+    color: rgb(143, 139, 133);
+}
+
+.radios{
+    height: 15rem;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box3{
+    height: 15rem;
+    width: 12rem;
+    object-fit: contain;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.box3 img{
+    height: 11.5rem;
+    width: 11.5rem;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.box3 p{
+    color: rgb(143, 139, 133);
+}
+
+.india{
+    height: 15rem;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box4{
+    height: 15rem;
+    width: 12rem;
+    object-fit: contain;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.box4 img{
+    height: 11.5rem;
+    width: 11.5rem;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.box4 p{
+    color: rgb(143, 139, 133);
+}
+
+/* Hover Effects */
+
+.box1, .box2, .box3, .box4 {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    transform: translateY(-9px);
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img {
+    transition: transform 0.3s ease;
+}
+
+.box1:hover img {
+    transform: scale(1.05);
+}
+
+/* Footer Secction */
+.footer {
+    background-color: #000000;
+    padding: 80px 0 50px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer-content {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-column h3 {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0.08em;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #1ed760;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background: #222326;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.social-icon:hover {
+    background-color: #727272;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-legal a {
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-legal a:hover {
+    color: #1ed760;
+}
+
+.footer-country {
+    color: #919496;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .search-bar {
+        width: 35%;
+        margin-right: 6rem;
+    }
+
+    .home-icon {
+        margin-left: 6rem;
+    }
+
+    .artists, .songs, .radios, .india {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        width: calc(25% - 2rem);
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .search-bar {
+        width: 40%;
+        margin-right: 2rem;
+    }
+
+    .home-icon {
+        margin-left: 2rem;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        width: calc(33.33% - 2rem);
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    main {
+        margin: 1rem;
+    }
+
+    .input {
+        width: 15rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 7px 15px;
+    }
+
+    .home-icon {
+        margin-left: 1rem;
+    }
+
+    .search-bar {
+        width: 45%;
+        margin-right: 1rem;
+    }
+
+    .input {
+        width: 12rem;
+        margin-right: 1rem;
+    }
+
+    .btns {
+        width: auto;
+        gap: 15px;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        width: calc(50% - 2rem);
+    }
+
+    .head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .head p {
+        align-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .search-bar {
+        display: none; /* Hide search on mobile */
+    }
+
+    .home-icon {
+        margin-left: 0;
+    }
+
+    .logo {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .logo img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .btns {
+        padding-right: 0;
+    }
+
+    .signup, .login {
+        font-size: 0.9rem;
+    }
+
+    .login {
+        padding: 6px 15px;
+    }
+
+    main {
+        margin: 0.5rem;
+        padding: 15px;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .box1 img, .box2 img, .box3 img, .box4 img {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-legal {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .footer-country {
+        justify-content: center;
+    }
+
+    .head h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .btns {
+        gap: 10px;
+    }
+
+    .signup, .login {
+        font-size: 0.8rem;
+    }
+
+    .login {
+        padding: 6px 12px;
+    }
+
+    .head h1 {
+        font-size: 1.3rem;
+    }
+
+    .footer {
+        padding: 40px 0 30px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (hover: none) {
+    .box1:hover, .box2:hover, .box3:hover, .box4:hover {
+        transform: none;
+    }
+
+    .signup:hover, .login:hover {
+        transform: none;
+    }
+}
+
+
+ 28 attachments
+  • Scann
